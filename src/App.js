@@ -1,9 +1,13 @@
-import './App.css';
+import React from "react";
+import { Displaypage, DisplayImage } from "./pages/Displaypage.js";
+import Map from "./pages/Map.js";
 
 function App() {
   return (
     <>
-      <h1 align='center'> Display Fetched Data From API </h1>
+      <DisplayImage />
+      <Displaypage />
+      <Map/>
     </>
   );
 }
