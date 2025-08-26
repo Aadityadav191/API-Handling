@@ -215,7 +215,7 @@ export default function Map() {
   return (
     <>
       <div>
-        <h1>Student Details Using Map Function </h1>
+         <h1 className="Congtitle" align="center">Student Details Using Map Function </h1>
         <table className="student-table">
           <thead>
             <tr>
@@ -242,6 +242,14 @@ export default function Map() {
 
       <style>
         {`
+        .Congtitle{
+            font-size: 2rem;
+            background-color: #0f6a06;
+            text-align: center;
+            margin: 100px;
+            padding: 5px;
+            margin-bottom: 20px;
+          }
           .student-table {
             width: 100%;
             border-collapse: collapse;

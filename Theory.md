@@ -28,7 +28,7 @@
 API is the Application Programming Interface based on the request response cycle. we can fetch an API with multiple methods.
 Some are:-
 
-1. USING AXIOS :
+# 1. USING AXIOS :
         function fetchUsersWithAxios()
         {
             return axios.get(apiUrl)
@@ -44,7 +44,7 @@ Some are:-
 
 
 
-2. USING ASYNC/AWAIT:
+# 2. USING ASYNC/AWAIT:
 
           async function fetchUsersWithAsyncAwait() 
             {
@@ -62,7 +62,7 @@ Some are:-
 
 
 
-3.USING PROMISES:
+# 3.USING PROMISES:
 
        function fetchUsersWithPromises()
          {
@@ -76,3 +76,22 @@ Some are:-
                console.log(data)
               })
          }
+
+
+# ----------------Summary-----------------
+
+A Promise = “Something that will happen later.”
+
+ # It can end in:
+      Resolved (fulfilled) → success 🎉
+      Rejected → error ❌
+# We handle results using .then() / .catch() or async/await.
+
+----------------------------------------------------
+# asynchronous functions always return a Promise
+
+# async → Marks a function as asynchronous (it will return a Promise).
+# await → Says: “⏳ Wait here until the Promise is finished, then give me the result.”
+
+// fetch returns a Promise → we use await here
+// response.json() also returns a Promise → we use await again
