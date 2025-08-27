@@ -85,7 +85,7 @@ A Promise = “Something that will happen later.”
  # It can end in:
       Resolved (fulfilled) → success 🎉
       Rejected → error ❌
-# We handle results using .then() / .catch() or async/await.
+# We handle results (Promise) using .then() / .catch() or async/await.
 
 ----------------------------------------------------
 # asynchronous functions always return a Promise
