@@ -1,7 +1,7 @@
 import Star from "../Components/Star.js";
 import { React, useEffect, useState } from "react";
 import Loader from "../Components/Loader.js";
-
+ 
 function DisplayImage() {
   const [image, setImage] = useState(null);
   useEffect(() => {
